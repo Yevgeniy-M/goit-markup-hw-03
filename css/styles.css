@@ -44,7 +44,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid #000;
+  /*outline: 1px solid #000;*/
 }
 
 img {
@@ -185,6 +185,7 @@ img {
 }
 .advantages-list {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .advantages-title {
@@ -208,6 +209,12 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-light-theme-color);
   margin-left: 24px;
+}
+
+.advantages-list-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* чем мы занимаемся*/
